@@ -1,0 +1,8 @@
+language: rust
+
+sudo: false
+
+matrix:
+    fast_finish: true
+    include:
+        - rust: nightly

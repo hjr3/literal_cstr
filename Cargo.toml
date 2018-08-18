@@ -1,0 +1,16 @@
+[package]
+name = "literal_cstr"
+version = "0.1.0"
+authors = ["Herman J. Radtke III <herman@hermanradtke.com>"]
+license = "MIT/Apache-2.0"
+description = "A macro that makes it easier to create literal C strings"
+repository = "https://github.com/hjr3/literal_cstr"
+readme = "README.md"
+include = ["/Cargo.toml", "/src/*.rs", "/README.md", "/LICENSE-APACHE", "/LICENSE-MIT"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.14"
+quote = "0.6"
