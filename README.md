@@ -1,6 +1,6 @@
 # Literal C String
 
-[![Build Status](https://travis-ci.org/hjr3/literal_cstr.svg?branch=master)](https://travis-ci.org/hjr3/literal_cstr)
+[![Build Status](https://travis-ci.com/hjr3/literal_cstr.svg?branch=master)](https://travis-ci.com/hjr3/literal_cstr)
 
 A procedural macro for making literal C strings.
 
