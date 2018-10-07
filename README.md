@@ -24,22 +24,22 @@ let s = c!("Hello, world!");
 
 ## Installation
 
-**Currently requires a nightly build of rust.** Use `rustc 1.28.0 (9634041f0 2018-07-30)` or newer.
+**Currently requires a nightly build of rust.** Use `rustc 1.31.0-nightly (4efdc04a5 2018-10-06)` or newer.
 
 ```toml
 [dependencies]
-quote = "0.6"
+literal_cstr = "0.1"
 ```
 
 ```rust
-#![feature(proc_macro_non_items)]
+#![feature(proc_macro_hygiene)]
 
 extern crate literal_cstr;
 
 use literal_cstr::c;
 ```
 
-Procedural macros are stable, but `#![feature(proc_macro_non_items)]` is required in order to use the macro with a literal string expression.
+Procedural macros are stable, but `#![feature(proc_macro_hygiene)]` is required in order to use the macro with a literal string expression.
 
 ## Usage
 
