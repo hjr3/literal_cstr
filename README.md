@@ -1,6 +1,7 @@
 # Literal C String
 
 [![Build Status](https://travis-ci.com/hjr3/literal_cstr.svg?branch=master)](https://travis-ci.com/hjr3/literal_cstr)
+[![Latest Version](https://img.shields.io/crates/v/literal_cstr.svg)](https://crates.io/crates/literal_cstr)
 
 A procedural macro for making literal C strings.
 
