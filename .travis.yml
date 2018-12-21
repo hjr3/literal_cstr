@@ -1,6 +1,6 @@
 language: rust
 
-sudo: false
+sudo: required
 
 matrix:
     fast_finish: true
